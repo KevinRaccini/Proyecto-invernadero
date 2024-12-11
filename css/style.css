@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');  /* fuente popins sacada de Google Fonts */
+
+body {
+    font-family: 'Poppins', sans-serif;   /* pegamos la regla de la fuente poppins sacada de Google Fonts */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1d293f;
+    /*background: #333;*/
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/*h2{
+    color: #001A49;
+}*/
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*SECTIONS------------------------------------------------------------------------------------------------*/
+
+
+.backgroundImg{ 
+   background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url("../img/greenhouse2.jpg"); /* Reemplaza con tu imagen */
+   background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Cambia el color del texto para que sea visible */
+    padding: 50px 20px; /* Añade espacio dentro de la sección */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+}
+
+section {
+    width: 90%;          /*90% para que el ancho del contenedor no ocupe toda la pantalla*/
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;    /*overflow hidden todo lo que salga del contenedor se esconda*/
+    padding: 100px 0;   /* variable con 100px arriba y 0 hacia los lados */
+}
+
+.infografia{
+   text-align: center;
+}
+
+.imgInfografia{
+    display: inline-block;
+}
+
+/*FOOTER------------------------------------------------------------------------------------------------*/
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1d293f;
+    color: white;
+}
